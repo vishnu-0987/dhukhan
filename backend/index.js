@@ -1,23 +1,16 @@
-const express = require('express')
-const bodyParser = require('body-parser');
-const usersRoute = require('./routes/users');
-const dotenv = require('dotenv')
-const cors = require('cors')
+const express = require("express");
+const bodyParser = require("body-parser");
+const usersRoute = require("./routes/users");
+const cors = require("cors");
 
-dotenv.config()
-
-const app = express()
+const app = express();
 
 app.use(bodyParser.json());
 
 app.use(cors());
 
+app.use("/users", usersRoute);
 
-app.use('/users', usersRoute);
-
-const PORT = process.env.PORT || 3001;
-
-app.listen(PORT, ()=>{
-    console.log(`server is running in ${PORT}`);
+app.listen(3001, () => {
+  console.log(`server is running in 3001`);
 });
-
