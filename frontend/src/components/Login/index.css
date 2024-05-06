@@ -1,0 +1,87 @@
+.login-header-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.login-page-container {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f7e9fc;
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  width: 31%;
+  padding-left: 40px;
+}
+
+.login-heading {
+  margin-top: 0px;
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.login-input-field {
+  padding: 13px;
+  margin-top: 20px;
+  outline: none;
+  padding-left: 17px;
+  font-size: 15px;
+}
+
+.continue-button {
+  border-width: 0px;
+  background-color: #f53707;
+  color: white;
+  padding: 12px;
+  margin-top: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.link-span {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.signup-link {
+  text-decoration: none;
+  color: #cc2f08;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.agreeement-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.agreement-label {
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.error-msg {
+  color: #f53707;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.error-msgs {
+  color: #f53707;
+  font-size: 12px;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
