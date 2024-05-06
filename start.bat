@@ -2,7 +2,7 @@
 
 rem Start the backend server
 cd backend
-start node index.js
+start nodemon index.js
 cd ..
 
 rem Start the frontend server
